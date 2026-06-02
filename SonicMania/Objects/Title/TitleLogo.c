@@ -188,6 +188,7 @@ void TitleLogo_SetupPressStart(void)
         case LANGUAGE_SC: RSDK.SetSpriteAnimation(TitleLogo->aniFrames, 8, &self->mainAnimator, true, 9); break;
         case LANGUAGE_TC: RSDK.SetSpriteAnimation(TitleLogo->aniFrames, 8, &self->mainAnimator, true, 10); break;
 #endif
+        case LANGUAGE_RU: RSDK.SetSpriteAnimation(TitleLogo->aniFrames, 8, &self->mainAnimator, true, 11); break;
 
         default: break;
     }
