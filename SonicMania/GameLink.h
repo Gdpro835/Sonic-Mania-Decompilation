@@ -898,12 +898,12 @@ typedef enum {
     LANGUAGE_GE,
     LANGUAGE_SP,
     LANGUAGE_JP,
-    LANGUAGE_RU,
 #if GAME_VERSION != VER_100
     LANGUAGE_KO,
     LANGUAGE_SC,
     LANGUAGE_TC,
 #endif
+    LANGUAGE_RU,
 } GameLanguages;
 
 typedef enum {
