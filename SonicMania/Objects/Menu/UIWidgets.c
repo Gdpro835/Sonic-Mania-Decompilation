@@ -79,12 +79,12 @@ void UIWidgets_ApplyLanguage(void)
         case LANGUAGE_GE: UIWidgets->textFrames = RSDK.LoadSpriteAnimation("UI/TextGE.bin", SCOPE_STAGE); break;
         case LANGUAGE_SP: UIWidgets->textFrames = RSDK.LoadSpriteAnimation("UI/TextSP.bin", SCOPE_STAGE); break;
         case LANGUAGE_JP: UIWidgets->textFrames = RSDK.LoadSpriteAnimation("UI/TextJP.bin", SCOPE_STAGE); break;
-        case LANGUAGE_RU: UIWidgets->textFrames = RSDK.LoadSpriteAnimation("UI/TextRU.bin", SCOPE_STAGE); break;
 #if GAME_VERSION != VER_100
         case LANGUAGE_KO: UIWidgets->textFrames = RSDK.LoadSpriteAnimation("UI/TextKO.bin", SCOPE_STAGE); break;
         case LANGUAGE_SC: UIWidgets->textFrames = RSDK.LoadSpriteAnimation("UI/TextSC.bin", SCOPE_STAGE); break;
         case LANGUAGE_TC: UIWidgets->textFrames = RSDK.LoadSpriteAnimation("UI/TextTC.bin", SCOPE_STAGE); break;
 #endif
+        case LANGUAGE_RU: UIWidgets->textFrames = RSDK.LoadSpriteAnimation("UI/TextRU.bin", SCOPE_STAGE); break;
         default: break;
     }
 }
