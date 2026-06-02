@@ -66,12 +66,7 @@ void Localization_LoadStrings(void)
             LogHelpers_Print("Loading JP strings...");
             RSDK.LoadStringList(&Localization->text, "StringsJP.txt", 16);
             break;
-
-        case LANGUAGE_RU:
-            LogHelpers_Print("Loading RU strings...");
-            RSDK.LoadStringList(&Localization->text, "StringsRU.txt", 16);
-            break;
-
+        
 #if GAME_VERSION != VER_100
         case LANGUAGE_KO:
             LogHelpers_Print("Loading KO strings...");
@@ -88,6 +83,11 @@ void Localization_LoadStrings(void)
             RSDK.LoadStringList(&Localization->text, "StringsTC.txt", 16);
             break;
 #endif
+
+        case LANGUAGE_RU:
+            LogHelpers_Print("Loading RU strings...");
+            RSDK.LoadStringList(&Localization->text, "StringsRU.txt", 16);
+            break;
 
         default: break;
     }
