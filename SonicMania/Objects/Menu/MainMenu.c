@@ -289,7 +289,7 @@ void MainMenu_SetupActions(void)
     {
         if (button->listID == 1) {
             if (button->frameID == 7) {
-                if (sku_platform != PLATFORM_PC && sku_platform != PLATFORM_DEV) {
+                if (sku_platform != PLATFORM_PC && sku_platform != PLATFORM_DEV && sku_platform != PLATFORM_ANDROID) {
                     EntityUIControl *control = MainMenu->menuControl;
 
                     // Remove "Exit" Button if not on PC or DEV platform
